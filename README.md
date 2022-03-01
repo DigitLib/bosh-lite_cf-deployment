@@ -45,9 +45,9 @@ Takes about 2 hours to deploy on my 2017 Macbook Pro. (@MarcPaquette)<br>
 Tested on Manjaro Linux (21.2.2 Qonos, VBox 6.1.32, Ruby 2.6.9) 
 
 ### VBox attach disk fix
-To have access, again, to cf in vbox use option "SavedState" when you "Close" VM. Before runnig VM again, change this:
+To have access, again, to cf in vbox use option "SavedState" when you "Close" VM. Before runnig VM again, update this file:
 ```bash
-cd /path/to/vbox/vm/vm-saved/vm-saved.vox
+cd /path/to/vbox/vm/vm-saved/vm-saved.vbox
 vim vm-saved.vom
 ```
 Change the hotpluggable for port 2, from false to true
