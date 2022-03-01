@@ -41,7 +41,8 @@ cf_env.sh
   Log into the Cloud Foundry foundation as the administrator user.
 
 ### Notes
-Takes about 2 hours to deploy on my 2017 Macbook Pro. (@MarcPaquette)
+Takes about 2 hours to deploy on my 2017 Macbook Pro. (@MarcPaquette)<br>
+Tested on Manjaro Linux (21.2.2 Qonos, VBox 6.1.32, Ruby 2.6.9) 
 
 ### VBox attach disk fix
 To have access, again, to cf in vbox use option "SavedState" when you "Close" VM. Before runnig VM again, change this:
